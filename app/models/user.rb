@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   validates :name, presence: true
-  validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }
+  validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }, uniqueness: true
 
   has_many :vaults, dependent: :destroy
   has_many :api_keys, dependent: :destroy
