@@ -1,0 +1,10 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  file_url: "<%= Rails.root.join('test', 'fixtures', 'files', 'document.pdf') %>"
+  name: "Document one"
+  vault: one
+  metadata:
+    file_size: 1024
+    content_type: "application/pdf"
+    original_filename: "document.pdf"
