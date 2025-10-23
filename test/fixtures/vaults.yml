@@ -3,9 +3,3 @@
 one:
   user: one
   name: MyString
-  knowledge: 
-
-two:
-  user: two
-  name: MyString
-  knowledge: 
